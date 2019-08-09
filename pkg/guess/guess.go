@@ -1,4 +1,4 @@
-package main
+package guess
 
 import (
 	"bufio"
@@ -13,7 +13,7 @@ import (
 
 const MAX_GUESSES = 10
 
-func main() {
+func Guess() {
 	seconds := time.Now().Unix()
 	rand.Seed(seconds)
 	target := rand.Intn(100) + 1

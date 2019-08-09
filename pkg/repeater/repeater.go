@@ -1,4 +1,4 @@
-package main
+package repeater
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Repeater() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Type some text to be repeated.")
 	fmt.Print("Text: ")
